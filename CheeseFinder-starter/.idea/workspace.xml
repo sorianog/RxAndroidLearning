@@ -83,22 +83,22 @@
       <file leaf-file-name="CheeseActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/raywenderlich/cheesefinder/CheeseActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="108" column="34" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3061#3226#0" expanded="true" />
-                <element signature="e#3225#3226#0" expanded="true" />
-                <element signature="e#3356#3570#0" expanded="true" />
-                <element signature="e#3569#3570#0" expanded="true" />
-                <element signature="e#3755#3975#0" expanded="true" />
-                <element signature="e#3974#3975#0" expanded="true" />
-                <element signature="e#4115#5141#0" expanded="true" />
-                <element signature="e#4891#5115#0" expanded="true" />
-                <element signature="e#5114#5115#0" expanded="true" />
-                <element signature="e#5140#5141#0" expanded="true" />
-                <element signature="e#5188#5368#0" expanded="true" />
-                <element signature="e#5367#5368#0" expanded="true" />
+                <element signature="e#3155#3320#0" expanded="true" />
+                <element signature="e#3319#3320#0" expanded="true" />
+                <element signature="e#3450#3664#0" expanded="true" />
+                <element signature="e#3663#3664#0" expanded="true" />
+                <element signature="e#3849#4069#0" expanded="true" />
+                <element signature="e#4068#4069#0" expanded="true" />
+                <element signature="e#4370#5396#0" expanded="true" />
+                <element signature="e#5146#5370#0" expanded="true" />
+                <element signature="e#5369#5370#0" expanded="true" />
+                <element signature="e#5395#5396#0" expanded="true" />
+                <element signature="e#5443#5623#0" expanded="true" />
+                <element signature="e#5622#5623#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2351,18 +2351,18 @@
           <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3061#3226#0" expanded="true" />
-            <element signature="e#3225#3226#0" expanded="true" />
-            <element signature="e#3356#3570#0" expanded="true" />
-            <element signature="e#3569#3570#0" expanded="true" />
-            <element signature="e#3755#3975#0" expanded="true" />
-            <element signature="e#3974#3975#0" expanded="true" />
-            <element signature="e#4115#5141#0" expanded="true" />
-            <element signature="e#4891#5115#0" expanded="true" />
-            <element signature="e#5114#5115#0" expanded="true" />
-            <element signature="e#5140#5141#0" expanded="true" />
-            <element signature="e#5188#5368#0" expanded="true" />
-            <element signature="e#5367#5368#0" expanded="true" />
+            <element signature="e#3155#3320#0" expanded="true" />
+            <element signature="e#3319#3320#0" expanded="true" />
+            <element signature="e#3450#3664#0" expanded="true" />
+            <element signature="e#3663#3664#0" expanded="true" />
+            <element signature="e#3849#4069#0" expanded="true" />
+            <element signature="e#4068#4069#0" expanded="true" />
+            <element signature="e#4370#5396#0" expanded="true" />
+            <element signature="e#5146#5370#0" expanded="true" />
+            <element signature="e#5369#5370#0" expanded="true" />
+            <element signature="e#5395#5396#0" expanded="true" />
+            <element signature="e#5443#5623#0" expanded="true" />
+            <element signature="e#5622#5623#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2415,22 +2415,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/raywenderlich/cheesefinder/CheeseActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="108" column="34" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3061#3226#0" expanded="true" />
-            <element signature="e#3225#3226#0" expanded="true" />
-            <element signature="e#3356#3570#0" expanded="true" />
-            <element signature="e#3569#3570#0" expanded="true" />
-            <element signature="e#3755#3975#0" expanded="true" />
-            <element signature="e#3974#3975#0" expanded="true" />
-            <element signature="e#4115#5141#0" expanded="true" />
-            <element signature="e#4891#5115#0" expanded="true" />
-            <element signature="e#5114#5115#0" expanded="true" />
-            <element signature="e#5140#5141#0" expanded="true" />
-            <element signature="e#5188#5368#0" expanded="true" />
-            <element signature="e#5367#5368#0" expanded="true" />
+            <element signature="e#3155#3320#0" expanded="true" />
+            <element signature="e#3319#3320#0" expanded="true" />
+            <element signature="e#3450#3664#0" expanded="true" />
+            <element signature="e#3663#3664#0" expanded="true" />
+            <element signature="e#3849#4069#0" expanded="true" />
+            <element signature="e#4068#4069#0" expanded="true" />
+            <element signature="e#4370#5396#0" expanded="true" />
+            <element signature="e#5146#5370#0" expanded="true" />
+            <element signature="e#5369#5370#0" expanded="true" />
+            <element signature="e#5395#5396#0" expanded="true" />
+            <element signature="e#5443#5623#0" expanded="true" />
+            <element signature="e#5622#5623#0" expanded="true" />
           </folding>
         </state>
       </provider>
