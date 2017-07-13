@@ -25,11 +25,16 @@ package com.raywenderlich.cheesefinder;
 
 import android.view.View;
 
+import java.util.List;
+
 import io.reactivex.Observable;
 import io.reactivex.ObservableEmitter;
 import io.reactivex.ObservableOnSubscribe;
+import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.functions.Cancellable;
 import io.reactivex.functions.Consumer;
+import io.reactivex.functions.Function;
+import io.reactivex.schedulers.Schedulers;
 
 public class CheeseActivity extends BaseSearchActivity {
     private Observable<String> createButtonClickObservable() {
@@ -60,10 +65,21 @@ public class CheeseActivity extends BaseSearchActivity {
 
         Observable<String> searchTextObservable = createButtonClickObservable();
 
-        searchTextObservable.subscribe(new Consumer<String>() {
+        // specifies that the next operator should be called on the I/O thread
+        searchTextObservable.observeOn(Schedulers.io())
+        .map(new Function<String, List<String>>() {
+
             @Override
-            public void accept(String query) throws Exception {
-                showResult(mCheeseSearchEngine.search(query));
+            public List<String> apply(String query) throws Exception {
+                return mCheeseSearchEngine.search(query);
+            }
+        })
+        // specifies that code down the chain should be executed on the main thread instead of on the I/O thread
+        .observeOn(AndroidSchedulers.mainThread())
+        .subscribe(new Consumer<List<String>>() {
+            @Override
+            public void accept(List<String> results) throws Exception {
+                showResult(results);
             }
         });
     }
